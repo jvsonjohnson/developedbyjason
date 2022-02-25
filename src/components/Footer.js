@@ -2,6 +2,7 @@ import React from "react";
 import { Link as Link1 } from "react-router-dom";
 
 const Footer = () => {
+  const current = new Date();
   return (
     <>
       <div className="footer">
@@ -26,7 +27,10 @@ const Footer = () => {
           </a>
         </div>
       </div>
-      <div className="copyright">©DevelopedByJvson. All Rights Reserved.</div>
+      <div className="copyright">
+        Copyright © DevelopedByJvson {current.getFullYear()}. All Rights
+        Reserved.
+      </div>
     </>
   );
 };
