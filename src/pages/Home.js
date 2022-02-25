@@ -8,10 +8,10 @@ const Home = () => {
   return (
     <div className="home">
       {/* main section */}
-      <section className="main slide fade">
+      <section className="main slide">
         <div className="main-left">
           <p className="primary-text">
-            Are You Looking for: Desktop friendly, Modern and Professional
+            Do You Want a Custom Device friendly, Modern and Professional
             website or Want to Redesign your existing site, then you are at the
             right place.
           </p>
