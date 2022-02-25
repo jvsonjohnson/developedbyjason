@@ -38,7 +38,8 @@ body {
 }
 /* Make images easier to work with */
 img,
-picture {
+picture,
+video {
   max-width: 100%;
   display: block;
 }
@@ -189,7 +190,7 @@ section {
   overflow: hidden;
 }
 #services {
-  height: 100vh;
+  height: 100%;
 }
 #services h1 {
   font-weight: bold;
@@ -230,25 +231,30 @@ section {
   margin-right: 10px;
 }
 /* ---------WORK----------- */
-
-.work {
-  display: flex;
-  justify-content: center;
-  height: 100vh;
+#work {
+  height: 100%;
 }
+.work {
+  display: grid;
+  grid-template-columns: 450px 450px;
+  grid-gap: 2rem;
+  place-items: center;
+  justify-content: center;
+  align-items: center;
+}
+
 #work h1 {
   font-weight: bold;
   text-align: center;
-  padding-top: 2rem;
+  padding: 2rem 0;
   font-size: 3rem;
 }
 
 .card {
-  margin-top: 2rem;
-  height: 450px;
-  width: 600px;
+  height: 420px;
+  width: 450px;
   border: 1px solid #e4e4e4;
-  transition: all 0.5s ease-in-out 0s;
+  transition: all 0.5s ease-in;
   font-family: "Poppins", sans-serif;
   box-shadow: 1px 1px 11px 0px rgba(0, 0, 0, 0.62);
   -webkit-box-shadow: 1px 1px 11px 0px rgba(0, 0, 0, 0.62);
@@ -256,6 +262,7 @@ section {
 }
 
 .card:hover {
+  opacity: 0.8;
   scale: 1.05;
 }
 
@@ -269,7 +276,7 @@ section {
 
 .card button {
   font-size: 1.2rem;
-  margin-top: 10px;
+  margin: 10px 0;
   padding: 5px 10px;
   background-color: #93c89c;
   border: none;
@@ -454,6 +461,9 @@ section {
   .service-list li {
     font-size: 1rem;
   }
+  .work {
+    grid-template-columns: 1fr;
+  }
 }
 @media screen and (max-width: 830px) {
   .mobile-menu-icon {
@@ -549,7 +559,7 @@ section {
     font-size: 2rem;
   }
   .service-list li {
-    font-size: 14px;
+    font-size: 18px;
     padding: 5px 0;
   }
 }
@@ -570,6 +580,9 @@ section {
   .service-list li {
     font-size: 14px;
     padding: 2px 0;
+  }
+  .card {
+    width: 90%;
   }
 }
 

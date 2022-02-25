@@ -68,6 +68,10 @@ const Home = () => {
                 <i className="fa-solid fa-check"></i>Graphic design and content
                 design
               </li>
+              <li className="">
+                <i className="fa-solid fa-check"></i>
+                Wordpress Ecommerce
+              </li>
             </ul>
             <div className="reveal-text"></div>
           </div>
@@ -76,19 +80,19 @@ const Home = () => {
       <br />
 
       {/* work section */}
-      <section id="work" className="fade">
+      <section id="work">
         <br />
-        <br />
+
         <h1 className="title">My Work</h1>
-        <div className="work fadeMe">
+        <div className="work">
           <div className="card">
             <img src="/dermakare.png" alt="" />
             <div className="card-text">
               <p className="card-title">mydermakare.com</p>
               <p className="card-description">
                 Derma Kare Skin & Body Centre specializes in General and
-                aesthetic dermatology and medical weight loss procedures in
-                Jamaica.
+                aesthetic dermatology, health and non surgical weight loss
+                procedures in Jamaica.
               </p>
               <a
                 href="https://mydermakare.com/"
@@ -97,6 +101,27 @@ const Home = () => {
               >
                 <button> Visit Site</button>
               </a>
+            </div>
+          </div>
+          <div className="card">
+            <img src="/burger.png" alt="" />
+            <div className="card-text">
+              <p className="card-title">Demo Website 1</p>
+              <p className="card-description"></p>
+
+              {/* <button> Visit Site</button> */}
+            </div>
+          </div>
+
+          <div className="card">
+            <video width="600" autoplay loop controls>
+              <source src="/nature.mp4" type="video/mp4" />
+            </video>
+            <div className="card-text">
+              <p className="card-title">Demo Website 2</p>
+              <p className="card-description"></p>
+
+              {/* <button> Visit Site</button> */}
             </div>
           </div>
         </div>
