@@ -11,7 +11,7 @@ const Home = () => {
       <section className="main slide">
         <div className="main-left">
           <p className="primary-text">
-            Do You Want a Custom Device friendly, Modern and Professional
+            Do You Want a Custom Device friendly, Clean Modern and Professional
             Website or Want to Redesign your existing site, then you are at the
             right place.
           </p>
@@ -43,11 +43,11 @@ const Home = () => {
             <ul className="service-list">
               <li className="">
                 <i className="fa-solid fa-check"></i>
-                Transform a UX/UI design (sketch, mockup) into reality
+                Transform a user interface design (sketch, mockup) into reality
               </li>
               <li className="">
                 <i className="fa-solid fa-check"></i>
-                Design and develop websites user interfaces
+                Design and develop websites user interfaces within a week.
               </li>
               <li className="">
                 <i className="fa-solid fa-check"></i>
@@ -67,10 +67,6 @@ const Home = () => {
               <li className="">
                 <i className="fa-solid fa-check"></i>Graphic design and content
                 design
-              </li>
-              <li className="">
-                <i className="fa-solid fa-check"></i>
-                Wordpress Ecommerce
               </li>
             </ul>
             <div className="reveal-text"></div>
@@ -106,8 +102,8 @@ const Home = () => {
           <div className="card">
             <img src="/burger.png" alt="" />
             <div className="card-text">
-              <p className="card-title">Demo Website 1</p>
-              <p className="card-description"></p>
+              <p className="card-title">The Burger Shack</p>
+              <p className="card-description">Website in progress...</p>
 
               {/* <button> Visit Site</button> */}
             </div>
@@ -118,8 +114,8 @@ const Home = () => {
               <source src="/nature.mp4" type="video/mp4" />
             </video>
             <div className="card-text">
-              <p className="card-title">Demo Website 2</p>
-              <p className="card-description"></p>
+              <p className="card-title">Wanderlust</p>
+              <p className="card-description">Website in progress...</p>
 
               {/* <button> Visit Site</button> */}
             </div>
