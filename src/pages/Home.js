@@ -51,11 +51,12 @@ const Home = () => {
               </li>
               <li className="">
                 <i className="fa-solid fa-check"></i>
-                Maintenance and optimization of websites
+                Maintenance and optimization of websites & the option for a
+                CMS(Content Management System)
               </li>
               <li className="">
-                <i className="fa-solid fa-check"></i>Implement Onpage SEO
-                practices
+                <i className="fa-solid fa-check"></i>Implement SEO(Search Engine
+                Optimization) practices
               </li>
               <li className="">
                 <i className="fa-solid fa-check"></i>Ensure device compatability
