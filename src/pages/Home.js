@@ -101,24 +101,16 @@ const Home = () => {
             </div>
           </div>
           <div className="card">
-            <img src="/burger.png" alt="" />
+            <img src="/travel-website.png" alt="" />
             <div className="card-text">
-              <p className="card-title">The Burger Shack</p>
-              <p className="card-description">Website in progress...</p>
+              <p className="card-title">Travel</p>
+              <p className="card-description">
+                A clean and simple 1 page site with nice animations
+              </p>
 
-              {/* <button> Visit Site</button> */}
-            </div>
-          </div>
-
-          <div className="card">
-            <video width="600" autoplay loop controls>
-              <source src="/nature.mp4" type="video/mp4" />
-            </video>
-            <div className="card-text">
-              <p className="card-title">Wanderlust</p>
-              <p className="card-description">Website in progress...</p>
-
-              {/* <button> Visit Site</button> */}
+              <a href="https://travel-animations.netlify.app/">
+                <button> Visit Site</button>
+              </a>
             </div>
           </div>
         </div>
