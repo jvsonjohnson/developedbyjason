@@ -11,9 +11,9 @@ const Home = () => {
       <section className="main slide">
         <div className="main-left">
           <p className="primary-text">
-            Do You Want a Custom Device Friendly, Modern, Minmal and
-            Professional Website or want to redesign your existing site, then
-            you are at the right place.
+            Do You Want a Custom Device Friendly, Minmal/Modern Professional
+            Website or want to redesign your existing site, then you are at the
+            right place.
           </p>
           <p className="secondary-text">
             Responsive, Optimized & User Friendly on all devices.
@@ -104,11 +104,28 @@ const Home = () => {
             <img src="/travel-website.png" alt="" />
             <div className="card-text">
               <p className="card-title">Travel</p>
-              <p className="card-description">
-                A clean and simple 1 page site with nice animations
-              </p>
+              <p className="card-description"></p>
 
-              <a href="https://travel-animations.netlify.app/">
+              <a
+                href="https://travel-animations.netlify.app/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <button> Visit Site</button>
+              </a>
+            </div>
+          </div>
+          <div className="card">
+            <video src="/Pets.mp4" autoplay="true" loop></video>
+            <div className="card-text">
+              <p className="card-title">Pets</p>
+              <p className="card-description"></p>
+
+              <a
+                href="https://jvsonjohnson.github.io/pets/"
+                target="_blank"
+                rel="noreferrer"
+              >
                 <button> Visit Site</button>
               </a>
             </div>
