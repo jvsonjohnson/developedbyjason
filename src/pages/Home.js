@@ -116,7 +116,7 @@ const Home = () => {
             </div>
           </div>
           <div className="card">
-            <video src="/Pets.mp4" autoplay="true" loop></video>
+            <video src="/Pets.mp4" autoplay="true" loop controls></video>
             <div className="card-text">
               <p className="card-title">Pets</p>
               <p className="card-description"></p>
