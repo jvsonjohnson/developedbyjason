@@ -11,7 +11,7 @@ const Home = () => {
       <section className="main slide">
         <div className="main-left">
           <p className="primary-text">
-            Do You Want a Custom Device Friendly, Minmal/Modern Professional
+            Do You Want a Custom Device Friendly, Minmal/Modern and Professional
             Website or want to redesign your existing site, then you are at the
             right place.
           </p>
@@ -101,10 +101,11 @@ const Home = () => {
             </div>
           </div>
           <div className="card">
-            <img src="/travel-website.png" alt="" />
+            {/* <img src="/travel-website.png" alt="" /> */}
+            <video src="/travel.mp4" autoplay="true" loop controls></video>
             <div className="card-text">
               <p className="card-title">Travel</p>
-              <p className="card-description"></p>
+              <p className="card-description">One of my custom projects</p>
 
               <a
                 href="https://travel-animations.netlify.app/"
@@ -119,7 +120,7 @@ const Home = () => {
             <video src="/Pets.mp4" autoplay="true" loop controls></video>
             <div className="card-text">
               <p className="card-title">Pets</p>
-              <p className="card-description"></p>
+              <p className="card-description">One of my custom projects</p>
 
               <a
                 href="https://jvsonjohnson.github.io/pets/"
