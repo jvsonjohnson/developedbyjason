@@ -124,8 +124,12 @@ nav button:hover {
 }
 
 /* --------- MAIN -----------*/
+section {
+  padding: 0 10%;
+  font-family: "Montserrat", sans-serif;
+  height: 100vh;
+}
 .home {
-  padding-bottom: 50px;
 }
 .reveal-img,
 .reveal-text {
@@ -139,7 +143,6 @@ nav button:hover {
 
 .main {
   font-family: "Montserrat", sans-serif;
-  height: 90vh;
   padding: 0 10%;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -171,12 +174,6 @@ nav button:hover {
   position: relative;
   justify-content: center;
   align-items: center;
-}
-
-section {
-  padding: 0 10%;
-  font-family: "Montserrat", sans-serif;
-  height: 100vh;
 }
 
 /* ---------SERVICES------------ */
@@ -233,6 +230,7 @@ section {
 /* ---------WORK----------- */
 #work {
   height: 100%;
+  padding-bottom: 50px;
 }
 .work {
   display: grid;
