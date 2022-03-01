@@ -87,27 +87,6 @@
       const sliders = document.querySelectorAll(".slide");
       const faders = document.querySelectorAll(".fade");
 
-      faders.forEach((fade) => {
-        const obj = document.querySelector(".fadeMe");
-        const fadeTl = gsap.timeline({
-          defaults: { duration: 1.2, ease: "power1.easeIn" },
-        });
-        fadeTl.fromTo(obj, { opacity: 0 }, { opacity: 1 });
-
-        // fadeScene = new ScrollMagic.Scene({
-        //   triggerElement: fade,
-        //   triggerHook: 0.5,
-        //   reverse: false,
-        // })
-        //   .setTween(fadeTl)
-        //   .addIndicators({
-        //     colorStart: "black",
-        //     colorTrigger: "black",
-        //     name: "slide",
-        //   })
-        //   .addTo(controller);
-      });
-
       sliders.forEach((slide) => {
         const revealImg = slide.querySelector(".reveal-img");
         const img = slide.querySelector("img");

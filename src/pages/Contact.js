@@ -83,7 +83,7 @@ const Contact = () => {
           <meta name="description" content="How Can I Help?" />
           <link rel="canonical" href="/contact" />
         </Helmet>
-        <section className="contact fade">
+        <section className="contact">
           <h1>How Can I Help?</h1>
           <p>
             <i className="fa-solid fa-envelope fa-lg"></i>jvsonjohnson@gmail.com
@@ -113,6 +113,7 @@ const Contact = () => {
                   placeholder="Name"
                   value={formValues.name}
                   onChange={handleChange}
+                  required
                 />
               </div>
               <p>{formErrors.name}</p>
@@ -125,6 +126,7 @@ const Contact = () => {
                   placeholder="Email"
                   value={formValues.email}
                   onChange={handleChange}
+                  required
                 />
               </div>
               <p>{formErrors.email}</p>
@@ -137,6 +139,7 @@ const Contact = () => {
                   placeholder="Subject eg. I need a website"
                   value={formValues.subject}
                   onChange={handleChange}
+                  required
                 />
               </div>
               <p>{formErrors.subject}</p>
@@ -150,6 +153,7 @@ const Contact = () => {
                   placeholder="Your Message"
                   value={formValues.message}
                   onChange={handleChange}
+                  required
                 ></textarea>
               </div>
               <p>{formErrors.message}</p>
