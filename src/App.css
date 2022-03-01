@@ -127,7 +127,6 @@ nav button:hover {
 section {
   padding: 0 10%;
   font-family: "Montserrat", sans-serif;
-  height: 100vh;
 }
 .home {
 }
@@ -143,6 +142,7 @@ section {
 
 .main {
   font-family: "Montserrat", sans-serif;
+  height: 100vh;
   padding: 0 10%;
   display: grid;
   grid-template-columns: 1fr 1fr;
@@ -581,6 +581,10 @@ section {
   }
   .card {
     width: 90%;
+  }
+
+  .logo {
+    height: 100px;
   }
 }
 
