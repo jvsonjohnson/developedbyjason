@@ -111,7 +111,7 @@ const Home = () => {
           </div>
           <div className="card">
             {/* <img src="/travel-website.png" alt="" /> */}
-            <video src="/travel.mp4" autoplay="true" loop controls></video>
+            <video src="/travel.mp4" autoPlay={true} loop controls></video>
             <div className="card-text">
               <p className="card-title">Travel</p>
               <p className="card-description">One of my custom projects</p>
@@ -126,7 +126,7 @@ const Home = () => {
             </div>
           </div>
           <div className="card">
-            <video src="/Pets.mp4" autoplay="true" loop controls></video>
+            <video src="/Pets.mp4" autoPlay={true} loop controls></video>
             <div className="card-text">
               <p className="card-title">Pets</p>
               <p className="card-description">One of my custom projects</p>
