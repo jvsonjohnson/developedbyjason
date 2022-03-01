@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 import "babel-polyfill";
 
 const Home = () => {
@@ -14,8 +14,9 @@ const Home = () => {
         <title>Developed By Jason</title>
         <meta
           name="description"
-          content="Do You Want a Custom Device Friendly, Minmal/Modern and Professional Website or want to redesign your existing site, then you are at the right place. I Help Start-ups, Businesses and Agencies Achieve High Quality Websites and Exceptional User Experience."
+          content="Do You Want a Custom Device Friendly, Minmal/Modern and Professional Website or want to redesign your existing site, then you are at the right place."
         />
+        <link rel="canonical" href="/" />
       </Helmet>
       {/* main section */}
       <section className="main slide">

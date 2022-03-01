@@ -1,5 +1,5 @@
 import React, { useRef, useState, useEffect } from "react";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 import emailjs from "@emailjs/browser";
 import "babel-polyfill";
 
@@ -81,6 +81,7 @@ const Contact = () => {
           <meta charSet="utf-8" />
           <title>Contact Me</title>
           <meta name="description" content="How Can I Help?" />
+          <link rel="canonical" href="/contact" />
         </Helmet>
         <section className="contact fade">
           <h1>How Can I Help?</h1>

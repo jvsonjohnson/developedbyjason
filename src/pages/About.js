@@ -1,5 +1,5 @@
 import React, { useEffect } from "react";
-import { Helmet } from "react-helmet";
+import { Helmet } from "react-helmet-async";
 import "babel-polyfill";
 
 const About = () => {
@@ -15,21 +15,22 @@ const About = () => {
           <title>About Me</title>
           <meta
             name="description"
-            content="I enjoy designing, developing and maintaining custom desktop and mobile websites and web applications. I like to craft modern and minimal front end products that are solid and stable with great user expereince and cool animations."
+            content="I design, develop and maintain custom desktop and mobile websites and web applications that are solid and stable with great user experience."
           />
+          <link rel="canonical" href="/about" />
         </Helmet>
         <section className="about-page slide">
           <div className="about-main">
             <div className="main-left secondary-text">
-              <h2>
+              <h1>
                 Frontend <br /> Developer
-              </h2>
+              </h1>
               <p>
                 Hi, I'm Jason. I'm a Front End Developer from Kingston, Jamaica.
                 I enjoy designing, developing and maintaining custom desktop and
                 mobile websites and web applications. I like to craft modern and
                 minimal front end products that are solid and stable with great
-                user expereince and cool animations.
+                user experience and cool animations.
               </p>
               <div className="reveal-text"></div>
             </div>
