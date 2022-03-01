@@ -98,8 +98,10 @@
         });
 
         slideTl.fromTo(revealText, { y: "0%" }, { y: "100%" });
+
         slideTl.fromTo(revealImg, { x: "0%" }, { x: "100%" }, "-=1");
         slideTl.fromTo(img, { scale: 0.05 }, { scale: 1 }, "-=1.5");
+        slideTl.fromTo(".lets-talk", { x: "-100%" }, { x: "0%" }, "-=1");
         // slideTl.fromTo(nav, { y: "-100%" }, { y: "0%" }, "-=0.5");
 
         //Create Scene

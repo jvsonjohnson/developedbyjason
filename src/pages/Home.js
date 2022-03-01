@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import { Link } from "react-router-dom";
 import { Helmet } from "react-helmet-async";
 import "babel-polyfill";
 
@@ -27,9 +28,15 @@ const Home = () => {
             right place.
           </p>
           <p className="secondary-text">
-            Responsive, Optimized & User Friendly on all devices.
+            Responsive, Optimized & User Friendly on all devices. <br />5 +
+            Years Of Experience
           </p>
           <div className="reveal-text"></div>
+          <div className="lets-talk">
+            <Link to="/contact">
+              Lets Talk... <i class="fa-solid fa-arrow-right"></i>
+            </Link>
+          </div>
         </div>
         <div className="main-right">
           <img src="/main.svg" alt="main svg" />

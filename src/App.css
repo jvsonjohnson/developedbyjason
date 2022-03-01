@@ -58,7 +58,16 @@ select {
   padding-top: 2rem;
   font-size: 3rem;
 }
+.lets-talk {
+  margin-top: 2rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
 
+.lets-talk a:hover {
+  color: #93c89c;
+}
 /* --------- NAVBAR -----------*/
 .mobile-menu-icon {
   display: none;
