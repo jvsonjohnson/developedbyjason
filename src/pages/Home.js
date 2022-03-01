@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import { Helmet } from "react-helmet";
 
 const Home = () => {
   useEffect(() => {
@@ -7,6 +8,14 @@ const Home = () => {
 
   return (
     <div className="home">
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>Developed By Jason</title>
+        <meta
+          name="description"
+          content="Do You Want a Custom Device Friendly, Minmal/Modern and Professional Website or want to redesign your existing site, then you are at the right place. I Help Start-ups, Businesses and Agencies Achieve High Quality Websites and Exceptional User Experience."
+        />
+      </Helmet>
       {/* main section */}
       <section className="main slide">
         <div className="main-left">
@@ -27,6 +36,13 @@ const Home = () => {
       </section>
       {/* services section */}
       <section id="services" className="slide">
+        <Helmet>
+          <title>Developed By Jason</title>
+          <meta
+            name="description"
+            content="I Help Start-ups, Businesses and Agencies Achieve High Quality Websites and Exceptional User Experience."
+          />
+        </Helmet>
         <br />
         <br />
         <h1>Services</h1>

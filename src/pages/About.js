@@ -1,4 +1,5 @@
 import React, { useEffect } from "react";
+import { Helmet } from "react-helmet";
 
 const About = () => {
   useEffect(() => {
@@ -7,6 +8,14 @@ const About = () => {
 
   return (
     <>
+      <Helmet>
+        <meta charSet="utf-8" />
+        <title>About Me</title>
+        <meta
+          name="description"
+          content="I enjoy designing, developing and maintaining custom desktop and mobile websites and web applications. I like to craft modern and minimal front end products that are solid and stable with great user expereince and cool animations."
+        />
+      </Helmet>
       <section className="about-page slide">
         <div className="about-main">
           <div className="main-left secondary-text">
@@ -14,11 +23,11 @@ const About = () => {
               Frontend <br /> Developer
             </h2>
             <p>
-              Hi, I'm Jason. I'm a Front End Developer from Kingston, Jamaica. I enjoy
-              designing, developing and maintaining custom desktop and mobile websites and web
-              applications. I like to craft modern and minimal front end
-              products that are solid and stable with great user expereince and
-              cool animations.
+              Hi, I'm Jason. I'm a Front End Developer from Kingston, Jamaica. I
+              enjoy designing, developing and maintaining custom desktop and
+              mobile websites and web applications. I like to craft modern and
+              minimal front end products that are solid and stable with great
+              user expereince and cool animations.
             </p>
             <div className="reveal-text"></div>
           </div>
