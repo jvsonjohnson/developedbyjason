@@ -432,6 +432,14 @@ section {
 .contact i {
   padding: 0 10px;
 }
+
+.notfound {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Montserrat";
+}
 /*----- RESPONSIVENESS-------------- */
 @media screen and (max-width: 1110px) {
   .main {

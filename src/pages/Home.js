@@ -36,13 +36,6 @@ const Home = () => {
       </section>
       {/* services section */}
       <section id="services" className="slide">
-        <Helmet>
-          <title>Developed By Jason</title>
-          <meta
-            name="description"
-            content="I Help Start-ups, Businesses and Agencies Achieve High Quality Websites and Exceptional User Experience."
-          />
-        </Helmet>
         <br />
         <br />
         <h1>Services</h1>

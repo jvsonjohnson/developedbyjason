@@ -75,12 +75,12 @@ const Contact = () => {
 
   return (
     <>
-      <Helmet>
-        <meta charSet="utf-8" />
-        <title>Contatc Me</title>
-        <meta name="description" content="How Can I Help?" />
-      </Helmet>
       <section className="contact fade">
+        <Helmet>
+          <meta charSet="utf-8" />
+          <title>Contact Me</title>
+          <meta name="description" content="How Can I Help?" />
+        </Helmet>
         <h1>How Can I Help?</h1>
         <p>
           <i className="fa-solid fa-envelope fa-lg"></i>jvsonjohnson@gmail.com
