@@ -11,7 +11,7 @@ const Home = () => {
     <div className="home">
       <Helmet>
         <meta charSet="utf-8" />
-        <title>Developed By Jason</title>
+        <title>Developed By Jason Front End Web Developer</title>
         <meta
           name="description"
           content="Do You Want a Custom Device Friendly, Minmal/Modern and Professional Website or want to redesign your existing site, then you are at the right place."
@@ -32,7 +32,7 @@ const Home = () => {
           <div className="reveal-text"></div>
         </div>
         <div className="main-right">
-          <img src="/main.svg" alt="" />
+          <img src="/main.svg" alt="main svg" />
           <div className="reveal-img"></div>
         </div>
       </section>
