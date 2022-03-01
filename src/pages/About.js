@@ -9,7 +9,7 @@ const About = () => {
 
   return (
     <>
-      <div>
+      <div className="about">
         <Helmet>
           <meta charSet="utf-8" />
           <title>About Me</title>
