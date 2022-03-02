@@ -23,9 +23,9 @@ const Home = () => {
       <section className="main slide">
         <div className="main-left">
           <p className="primary-text">
-            Do You Want a Custom Device Friendly, Minmal/Modern and Professional
-            Website or want to redesign your existing site, then you are at the
-            right place.
+            Do You Want a Custom Device Friendly, Minimal/Modern and
+            Professional Website or want to redesign your existing site, then
+            you are at the right place.
           </p>
           <p className="secondary-text">
             Responsive, Optimized & User Friendly on all devices. <br />5 +
