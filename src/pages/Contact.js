@@ -150,7 +150,7 @@ const Contact = () => {
                   id="message"
                   cols="30"
                   rows="8"
-                  placeholder="Your Message"
+                  placeholder="Lets talk..."
                   value={formValues.message}
                   onChange={handleChange}
                   required
