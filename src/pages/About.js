@@ -28,14 +28,14 @@ const About = () => {
               <p>
                 Hi, I'm Jason. I'm a Front End Developer based in Kingston,
                 Jamaica. I enjoy designing, developing and maintaining custom
-                desktop and mobile websites and web applications. I like to
-                craft modern and minimal front end products that are solid and
-                stable with great user experience and cool animations.
+                device friendly websites and web applications. I like to craft
+                modern and minimal front end products that are solid and stable
+                with great user experience and cool animations.
               </p>
               <div className="reveal-text"></div>
             </div>
             <div className="about-pic">
-              <img src="/avatar.svg" alt="" />
+              <img src="/me.jpg" alt="" />
             </div>
           </div>
         </section>

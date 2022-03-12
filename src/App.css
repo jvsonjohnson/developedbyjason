@@ -361,7 +361,10 @@ section {
   justify-content: center;
 }
 .about-pic img {
-  height: 250px;
+  height: 350px;
+  aspect-ratio: 1;
+  border-radius: 50%;
+  object-fit: cover;
 }
 /*-------- CONTACT -----------*/
 .contact {

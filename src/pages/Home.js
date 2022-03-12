@@ -23,9 +23,8 @@ const Home = () => {
       <section className="main slide">
         <div className="main-left">
           <p className="primary-text">
-            Do You Want a Custom Device Friendly, Minimal/Modern and
-            Professional Website or want to redesign your existing site, then
-            you are at the right place.
+            Do You Need a Custom Device Friendly, Professional Website OR need
+            Digital Marketing Services? Then you are at the Right Place.
           </p>
           <p className="secondary-text">
             Responsive, Optimized & User Friendly on all devices. <br />5 +
@@ -61,11 +60,12 @@ const Home = () => {
             <ul className="service-list">
               <li className="">
                 <i className="fa-solid fa-check"></i>
-                Transform a user interface design (sketch, mockup) into reality
+                Transform your user interface design (sketch, mockup) into
+                reality
               </li>
               <li className="">
                 <i className="fa-solid fa-check"></i>
-                Design and develop websites user interfaces within a week.
+                Design and develop website user interfaces.
               </li>
               <li className="">
                 <i className="fa-solid fa-check"></i>
@@ -77,15 +77,17 @@ const Home = () => {
                 Optimization) practices
               </li>
               <li className="">
+                <i className="fa-solid fa-check"></i>Ecommerce Website Creation
+              </li>
+              <li className="">
                 <i className="fa-solid fa-check"></i>Ensure device compatability
               </li>
               <li className="">
-                <i className="fa-solid fa-check"></i>Social media marketing
-                (Google, Facebook, Instagram)
+                <i className="fa-solid fa-check"></i>Digital Marketing
               </li>
               <li className="">
-                <i className="fa-solid fa-check"></i>Graphic design and content
-                design
+                <i className="fa-solid fa-check"></i>Graphic Design and Content
+                Creation
               </li>
             </ul>
             <div className="reveal-text"></div>
@@ -119,11 +121,13 @@ const Home = () => {
             </div>
           </div>
           <div className="card">
-            {/* <img src="/travel-website.png" alt="" /> */}
-            <video src="/travel.mp4" loop controls></video>
+            <img src="/travel.png" alt="" />
+            {/* <video src="/travel.mp4" loop controls></video> */}
             <div className="card-text">
               <p className="card-title">Travel</p>
-              <p className="card-description">One of my custom projects</p>
+              <p className="card-description">
+                One of my unique custom projects
+              </p>
 
               <a
                 href="https://travel-animations.netlify.app/"
@@ -138,7 +142,9 @@ const Home = () => {
             <video src="/Pets.mp4" loop controls></video>
             <div className="card-text">
               <p className="card-title">Pets</p>
-              <p className="card-description">One of my custom projects</p>
+              <p className="card-description">
+                One of my unique custom projects
+              </p>
 
               <a
                 href="https://jvsonjohnson.github.io/pets/"
