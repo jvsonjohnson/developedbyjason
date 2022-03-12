@@ -12,10 +12,11 @@ const Home = () => {
     <div className="home">
       <Helmet>
         <meta charSet="utf-8" />
-        <title>Developed By Jason Front End Web Developer</title>
+        <title>DevelopedByJason</title>
         <meta
           name="description"
-          content="Do You Want a Custom Device Friendly, Minmal/Modern and Professional Website or want to redesign your existing site, then you are at the right place."
+          content="Do You Need a Custom Device Friendly, Professional Website OR need
+            Digital Marketing Services? Then you are at the Right Place."
         />
         <link rel="canonical" href="/" />
       </Helmet>

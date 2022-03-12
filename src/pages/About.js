@@ -15,7 +15,8 @@ const About = () => {
           <title>About Me</title>
           <meta
             name="description"
-            content="I design, develop and maintain custom desktop and mobile websites and web applications that are solid and stable with great user experience."
+            content="I design, develop and maintain custom desktop and mobile websites and web applications and  help
+                businesses acheive their greatest potential."
           />
           <link rel="canonical" href="/about" />
         </Helmet>
@@ -30,7 +31,8 @@ const About = () => {
                 Jamaica. I enjoy designing, developing and maintaining custom
                 device friendly websites and web applications. I like to craft
                 modern and minimal front end products that are solid and stable
-                with great user experience and cool animations.
+                with great user experience and cool animations. I also help
+                businesses acheive their greatest potential.
               </p>
               <div className="reveal-text"></div>
             </div>
