@@ -79,7 +79,7 @@ header {
   justify-content: flex-end;
   align-items: center;
   padding: 0 10%;
-  height: 60px;
+  height: 70px;
   background-color: white;
   z-index: 2;
   transition: all 0.5s ease-out;
@@ -95,8 +95,7 @@ button {
 
 .logo {
   cursor: pointer;
-  height: 150px;
-  width: 150px;
+  height: 170px;
   aspect-ratio: 1;
   margin-left: -20px;
   margin-right: auto;
@@ -195,9 +194,12 @@ section {
   align-items: center;
   padding-top: 1.5rem;
   overflow: hidden;
+  clear: both;
 }
 #services {
   height: 100%;
+
+  clear: both;
 }
 #services h1 {
   font-weight: bold;
@@ -486,7 +488,7 @@ section {
     grid-template-columns: 1fr;
   }
 }
-@media screen and (max-width: 830px) {
+@media screen and (max-width: 850px) {
   .mobile-menu-icon {
     display: flex;
     border: none;
