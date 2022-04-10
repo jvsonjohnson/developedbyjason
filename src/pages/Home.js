@@ -66,7 +66,7 @@ const Home = () => {
               </li>
               <li className="">
                 <i className="fa-solid fa-check"></i>
-                Design and develop website user interfaces.
+                Design and develop (sketch, mockup) website user interfaces.
               </li>
               <li className="">
                 <i className="fa-solid fa-check"></i>
