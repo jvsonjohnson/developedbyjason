@@ -368,6 +368,16 @@ section {
   border-radius: 50%;
   object-fit: cover;
 }
+
+.resume {
+  display: flex;
+  padding-bottom: 50px;
+}
+
+.resume img {
+  height: 700px;
+  object-fit: cover;
+}
 /*-------- CONTACT -----------*/
 .contact {
   display: flex;
@@ -609,5 +619,15 @@ section {
   }
   .card {
     width: 90%;
+  }
+
+  .resume {
+    display: flex;
+    padding-bottom: 50px;
+  }
+
+  .resume img {
+    height: 700px;
+    object-fit: contain;
   }
 }

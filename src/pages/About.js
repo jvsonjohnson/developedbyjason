@@ -41,7 +41,13 @@ const About = () => {
             </div>
           </div>
         </section>
+        <section>
+          <div className="resume">
+            <img src="degree.jpg" alt="" />
+          </div>
+        </section>
       </div>
+      
     </>
   );
 };
