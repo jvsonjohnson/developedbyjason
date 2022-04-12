@@ -378,6 +378,21 @@ section {
   height: 700px;
   object-fit: cover;
 }
+
+.skills {
+  display: grid;
+  grid-template-columns: 1fr;
+}
+
+.skills i {
+  padding: 0 10px;
+}
+
+.skill-list ul {
+}
+.skill-list h2 {
+  text-align: center;
+}
 /*-------- CONTACT -----------*/
 .contact {
   display: flex;
@@ -597,6 +612,10 @@ section {
   .service-list li {
     font-size: 18px;
     padding: 5px 0;
+  }
+  .skills {
+    display: grid;
+    grid-template-columns: 1fr;
   }
 }
 

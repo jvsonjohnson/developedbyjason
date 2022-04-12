@@ -41,13 +41,13 @@ const About = () => {
             </div>
           </div>
         </section>
-        <section>
+        <section className="skills">
+          <h2>BSC. Computer Science</h2>
           <div className="resume">
             <img src="degree.jpg" alt="" />
           </div>
         </section>
       </div>
-      
     </>
   );
 };

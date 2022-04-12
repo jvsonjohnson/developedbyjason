@@ -139,6 +139,25 @@ const Home = () => {
               </a>
             </div>
           </div>
+
+          <div className="card">
+            <img src="/trvlbyjason.netlify.png" alt="" />
+            <div className="card-text">
+              <p className="card-title">Travel Site</p>
+              <p className="card-description">
+                One of my unique custom projects
+              </p>
+
+              <a
+                href="https://trvlbyjason.netlify.app/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <button> Visit Site</button>
+              </a>
+            </div>
+          </div>
+
           <div className="card">
             <video src="/Pets.mp4" loop controls></video>
             <div className="card-text">
