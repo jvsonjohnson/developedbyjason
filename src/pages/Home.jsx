@@ -126,9 +126,7 @@ const Home = () => {
             {/* <video src="/travel.mp4" loop controls></video> */}
             <div className="card-text">
               <p className="card-title">Travel</p>
-              <p className="card-description">
-                One of my unique custom projects
-              </p>
+              <p className="card-description"></p>
 
               <a
                 href="https://travel-animations.netlify.app/"
@@ -143,10 +141,8 @@ const Home = () => {
           <div className="card">
             <img src="/trvlbyjason.netlify.png" alt="" />
             <div className="card-text">
-              <p className="card-title">Travel Site</p>
-              <p className="card-description">
-                One of my unique custom projects
-              </p>
+              <p className="card-title">TRVL</p>
+              <p className="card-description"></p>
 
               <a
                 href="https://trvlbyjason.netlify.app/"
@@ -162,9 +158,7 @@ const Home = () => {
             <video src="/Pets.mp4" loop controls></video>
             <div className="card-text">
               <p className="card-title">Pets</p>
-              <p className="card-description">
-                One of my unique custom projects
-              </p>
+              <p className="card-description"></p>
 
               <a
                 href="https://jvsonjohnson.github.io/pets/"
