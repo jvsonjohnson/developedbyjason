@@ -197,14 +197,13 @@ section {
   clear: both;
 }
 #services {
-  height: 100%;
-
+  padding: 1rem 0;
   clear: both;
+  height: 100vh;
 }
 #services h1 {
   font-weight: bold;
   text-align: center;
-  padding-top: 2rem;
   font-size: 3rem;
 }
 
@@ -224,7 +223,7 @@ section {
   align-items: center;
   padding-top: 1rem;
   text-align: center;
-  font-size: 1.8rem;
+  font-size: 1.6rem;
 }
 .service-list {
   padding: 1.2rem 0;
@@ -273,11 +272,10 @@ section {
 
 .card:hover {
   opacity: 0.8;
-  scale: 1.01;
 }
 
 .card-text {
-  padding: 20px;
+  padding: 10px 20px;
 }
 
 .card-title {
@@ -285,7 +283,7 @@ section {
 }
 
 .card button {
-  font-size: 1.2rem;
+  font-size: 18px;
   margin: 10px 0;
   padding: 5px 10px;
   background-color: #93c89c;
@@ -294,6 +292,15 @@ section {
   transition: all 0.3s ease 0s;
 }
 
+.card img {
+  height: 50%;
+}
+.card video {
+}
+
+.card-description {
+  font-size: 14px;
+}
 /* ---------FOOTER------------ */
 .footer {
   display: flex;

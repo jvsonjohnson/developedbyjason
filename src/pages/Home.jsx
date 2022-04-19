@@ -50,7 +50,7 @@ const Home = () => {
         <h1>Services</h1>
         <p className="service-text">
           I Help Start-ups, Businesses and Agencies Achieve High Quality
-          Websites and Exceptional User Experience.
+          Websites <br /> and Exceptional User Experience.
         </p>
         <div className="services">
           <div className="service-left">
@@ -66,27 +66,27 @@ const Home = () => {
               <li className="">
                 <i className="fa-solid fa-check"></i>
                 Transform any user interface design (sketch, mockup) into
-                reality
+                reality.
               </li>
               <li className="">
                 <i className="fa-solid fa-check"></i>
                 Maintenance and optimization of websites & the option for a
-                CMS(Content Management System)
+                CMS(Content Management System).
               </li>
               <li className="">
                 <i className="fa-solid fa-check"></i>Implement SEO(Search Engine
-                Optimization) practices
+                Optimization) practices.
               </li>
               <li className="">
                 <i className="fa-solid fa-check"></i>Ensure mobile device
-                compatability
+                compatability.
               </li>
               <li className="">
-                <i className="fa-solid fa-check"></i>Digital Marketing
+                <i className="fa-solid fa-check"></i>Digital Marketing.
               </li>
               <li className="">
                 <i className="fa-solid fa-check"></i>Graphic Design and Content
-                Creation
+                Creation.
               </li>
             </ul>
             <div className="reveal-text"></div>
