@@ -125,7 +125,8 @@ const Home = () => {
             <div className="card-text">
               <p className="card-title">Travel</p>
               <p className="card-description">
-                Design built from scratch using HTML, CSS & JavaScript
+                Design built from scratch using HTML, CSS & JavaScript, with
+                cool animations.
               </p>
 
               <a
@@ -143,7 +144,7 @@ const Home = () => {
             <div className="card-text">
               <p className="card-title">TRVL</p>
               <p className="card-description">
-                Design built from scratch using React JS
+                Design built from scratch using React JS.
               </p>
 
               <a
@@ -161,11 +162,29 @@ const Home = () => {
             <div className="card-text">
               <p className="card-title">Pets</p>
               <p className="card-description">
-                A cool fullscreen animation done with JavaScript
+                A cool fullscreen animation done with JavaScript.
               </p>
 
               <a
                 href="https://jvsonjohnson.github.io/pets/"
+                target="_blank"
+                rel="noreferrer"
+              >
+                <button> Visit Site</button>
+              </a>
+            </div>
+          </div>
+
+          <div className="card">
+            <img src="/fila.png" alt="" />
+            <div className="card-text">
+              <p className="card-title">FILA.</p>
+              <p className="card-description">
+                Design built from scratch using React JS.
+              </p>
+
+              <a
+                href="https://fila-store.netlify.app/"
                 target="_blank"
                 rel="noreferrer"
               >

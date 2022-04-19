@@ -196,14 +196,13 @@ section {
   overflow: hidden;
 }
 #services {
-  padding: 1rem 0;
-  clear: both;
-  height: 100%;
+  height: 100vh;
 }
 #services h1 {
   font-weight: bold;
   text-align: center;
   font-size: 3rem;
+  margin-top: 50px;
 }
 
 .service-img {
@@ -259,7 +258,7 @@ section {
 
 .card {
   flex: 1;
-  height: 400px;
+  height: 500px;
   border: 1px solid #e4e4e4;
   transition: all 0.5s ease-in;
   font-family: "Poppins", sans-serif;
