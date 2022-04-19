@@ -196,7 +196,7 @@ section {
   overflow: hidden;
 }
 #services {
-  height: 100vh;
+  height: 100%;
 }
 #services h1 {
   font-weight: bold;
