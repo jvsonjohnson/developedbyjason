@@ -194,12 +194,13 @@ section {
   align-items: center;
   padding-top: 1.5rem;
   overflow: hidden;
-  clear: both;
+
+  height: 100vh;
 }
 #services {
   padding: 1rem 0;
   clear: both;
-  height: 100vh;
+  height: 100%;
 }
 #services h1 {
   font-weight: bold;
@@ -224,6 +225,7 @@ section {
   padding-top: 1rem;
   text-align: center;
   font-size: 1.6rem;
+  margin: 0 5rem;
 }
 .service-list {
   padding: 1.2rem 0;
@@ -250,6 +252,7 @@ section {
   place-items: center;
   justify-content: center;
   align-items: center;
+  height: 100%;
 }
 
 #work h1 {
@@ -647,8 +650,12 @@ section {
     font-size: 14px;
     padding: 2px 0;
   }
+
+  .service-list {
+    margin: 0 2rem;
+  }
   .card {
-    width: 90%;
+    width: 100%;
   }
 
   .resume {

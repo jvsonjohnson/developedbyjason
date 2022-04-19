@@ -32,11 +32,11 @@ const Home = () => {
             Years Of Experience
           </p>
           <div className="reveal-text"></div>
-          <div className="lets-talk">
+          {/* <div className="lets-talk">
             <Link to="/contact">
               Lets Talk... <i class="fa-solid fa-arrow-right"></i>
             </Link>
-          </div>
+          </div> */}
         </div>
         <div className="main-right">
           <img src="/main.svg" alt="main svg" />
