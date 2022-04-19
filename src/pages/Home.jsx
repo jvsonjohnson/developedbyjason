@@ -126,7 +126,9 @@ const Home = () => {
             {/* <video src="/travel.mp4" loop controls></video> */}
             <div className="card-text">
               <p className="card-title">Travel</p>
-              <p className="card-description"></p>
+              <p className="card-description">
+                Built from scratch using HTML, CSS & JavaScript
+              </p>
 
               <a
                 href="https://travel-animations.netlify.app/"
@@ -142,7 +144,9 @@ const Home = () => {
             <img src="/trvlbyjason.netlify.png" alt="" />
             <div className="card-text">
               <p className="card-title">TRVL</p>
-              <p className="card-description"></p>
+              <p className="card-description">
+                Built from scratch using React JS
+              </p>
 
               <a
                 href="https://trvlbyjason.netlify.app/"
@@ -158,7 +162,9 @@ const Home = () => {
             <video src="/Pets.mp4" loop controls></video>
             <div className="card-text">
               <p className="card-title">Pets</p>
-              <p className="card-description"></p>
+              <p className="card-description">
+                A cool fullscreen animation done with JavaScript
+              </p>
 
               <a
                 href="https://jvsonjohnson.github.io/pets/"
