@@ -28,7 +28,7 @@ const Home = () => {
             Digital Marketing Services? Then you are at the Right Place.
           </p>
           <p className="secondary-text">
-            Responsive, Optimized & User Friendly on all devices. <br />5 +
+            Responsive, Optimized & User Friendly on all devices. <br />3 +
             Years Of Experience
           </p>
           <div className="reveal-text"></div>
@@ -61,12 +61,12 @@ const Home = () => {
             <ul className="service-list">
               <li className="">
                 <i className="fa-solid fa-check"></i>
-                Transform your user interface design (sketch, mockup) into
-                reality
+                Design and develop (sketch, mockup) website user interfaces.
               </li>
               <li className="">
                 <i className="fa-solid fa-check"></i>
-                Design and develop (sketch, mockup) website user interfaces.
+                Transform any user interface design (sketch, mockup) into
+                reality
               </li>
               <li className="">
                 <i className="fa-solid fa-check"></i>
@@ -78,10 +78,8 @@ const Home = () => {
                 Optimization) practices
               </li>
               <li className="">
-                <i className="fa-solid fa-check"></i>Ecommerce Website Creation
-              </li>
-              <li className="">
-                <i className="fa-solid fa-check"></i>Ensure device compatability
+                <i className="fa-solid fa-check"></i>Ensure mobile device
+                compatability
               </li>
               <li className="">
                 <i className="fa-solid fa-check"></i>Digital Marketing
@@ -127,7 +125,7 @@ const Home = () => {
             <div className="card-text">
               <p className="card-title">Travel</p>
               <p className="card-description">
-                Built from scratch using HTML, CSS & JavaScript
+                Design built from scratch using HTML, CSS & JavaScript
               </p>
 
               <a
@@ -145,7 +143,7 @@ const Home = () => {
             <div className="card-text">
               <p className="card-title">TRVL</p>
               <p className="card-description">
-                Built from scratch using React JS
+                Design built from scratch using React JS
               </p>
 
               <a
