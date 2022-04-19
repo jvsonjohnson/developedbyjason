@@ -50,7 +50,7 @@ const Home = () => {
         <h1>Services</h1>
         <p className="service-text">
           I Help Start-ups, Businesses and Agencies Achieve High Quality
-          Websites <br /> and Exceptional User Experience.
+          Websites and Exceptional User Experience.
         </p>
         <div className="services">
           <div className="service-left">
