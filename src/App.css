@@ -244,11 +244,9 @@ section {
 }
 .work {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-columns: 1fr 1fr;
   grid-gap: 2rem;
   place-items: center;
-  justify-content: center;
-  align-items: center;
   height: 100%;
 }
 
@@ -260,8 +258,8 @@ section {
 }
 
 .card {
+  flex: 1;
   height: 400px;
-  width: 400px;
   border: 1px solid #e4e4e4;
   transition: all 0.5s ease-in;
   font-family: "Poppins", sans-serif;
@@ -293,7 +291,7 @@ section {
 }
 
 .card img {
-  height: 50%;
+  object-fit: contain;
 }
 .card video {
 }
@@ -522,6 +520,11 @@ section {
   }
   .work {
     grid-template-columns: 1fr 1fr;
+  }
+
+  .card {
+    flex: 1;
+    height: 450px;
   }
 }
 @media screen and (max-width: 850px) {
