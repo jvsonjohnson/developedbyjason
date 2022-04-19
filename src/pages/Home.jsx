@@ -139,7 +139,7 @@ const Home = () => {
             </div>
           </div>
 
-          <div className="card">
+          {/* <div className="card">
             <img src="/trvlbyjason.netlify.png" alt="" />
             <div className="card-text">
               <p className="card-title">TRVL</p>
@@ -155,7 +155,7 @@ const Home = () => {
                 <button> Visit Site</button>
               </a>
             </div>
-          </div>
+          </div> */}
 
           <div className="card">
             <video src="/Pets.mp4" loop controls></video>
